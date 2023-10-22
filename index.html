@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- saved from url=(0055)file:///C:/Users/Benjamin/Desktop/Steven%20Diamond.html -->
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
   
@@ -7,7 +6,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Steven Diamond</title>
+  <title>Xiaoguang Wang</title>
 
   <!-- Bootstrap core CSS -->
   <link href="./index_files/bootstrap.min.css" rel="stylesheet">
@@ -19,18 +18,18 @@
 
   <!-- Custom styles for this template -->
   <link href="./index_files/resume.min.css" rel="stylesheet">
-  <link rel="apple-touch-icon" sizes="180x180" href="https://stevendiamond.me/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="https://stevendiamond.me/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="https://stevendiamond.me/favicon-16x16.png">
-  <link rel="manifest" href="https://stevendiamond.me/site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="./index_files/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./index_files/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./index_files/favicon-16x16.png">
+  <link rel="manifest" href="./index_files/site.webmanifest">
 
 </head>
 
 <body id="page-top">
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-    <a class="navbar-brand js-scroll-trigger" href="https://stevendiamond.me/#page-top">
-      <span class="d-block d-lg-none">Steven Diamond</span>
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Xiaoguang Wang</span>
       <span class="d-none d-lg-block">
         <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="./index_files/profile.jpg" alt="">
       </span>
@@ -41,19 +40,22 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="https://stevendiamond.me/#about">About</a>
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link js-scroll-trigger active" href="#projects">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger active" href="https://stevendiamond.me/#publications">Publications</a>
+          <a class="nav-link js-scroll-trigger active" href="#publications">Publications</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="https://stevendiamond.me/#software">Software</a>
+          <a class="nav-link js-scroll-trigger" href="#software">Software</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="https://stevendiamond.me/#teaching">Teaching</a>
+          <a class="nav-link js-scroll-trigger" href="#teaching">Teaching</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="https://stevendiamond.me/pdf/cv.pdf">CV</a>
+          <a class="nav-link js-scroll-trigger" href="xiaoguang_CV.pdf">CV</a>
         </li>
       </ul>
     </div>
@@ -63,13 +65,13 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
-        <h1 class="mb-0" style="font-size:80px;">Steven
-          <span class="text-primary">Diamond</span>
+        <h1 class="mb-0" style="font-size:68px;">Xiaoguang (Benjamin)
+          <span class="text-primary">Wang</span>
         </h1>
-        <div class="subheading mb-5">1500 E Hamilton Ave · Campbell, CA 95008 ·
-          <a href="mailto:name@email.com">diamond@cs.stanford.edu</a>
+        <div class="subheading mb-5">123 Morwick Drive · Hamilton, ON, CANADA · L9G 5A2 ·
+          <a href="mailto:fridaymonday@hotmail.com">fridaymonday@hotmail.com</a>
         </div>
-        <p class="lead mb-5">I work at <a href="http://www.gridmatic.com/">Gridmatic</a>. I did my Ph.D. in Computer Science at Stanford University under <a href="http://www.stanford.edu/~boyd/">Professor Stephen Boyd</a>. I was co-advised by <a href="https://stanford.edu/~gordonwz/">Professor Gordon Wetzstein</a> and by <a href="https://cs.stanford.edu/people/chrismre/">Professor Chris Ré</a>. My research interests include software for optimization and applications of optimization to financial planning, as well as other use cases.</p>
+        <p class="lead mb-5">I work at <a href="http://www.uyun.cn/">UYUN</a>. I did my Ph.D. in Computer Science at University of Ottawa under <a href="https://www.dal.ca/faculty/computerscience/faculty-staff/stan-matwin.html">Professor Stan Matwin</a>. I was co-advised by <a href="https://www.american.edu/cas/faculty/japkowic.cfm">Professor Nathalie Japkowicz</a>. My research interests include machine learning and applications of AI, as well as other use cases.</p>
         <!-- <div class="social-icons"> -->
         <!--   <a href="#"> -->
         <!--     <i class="fab fa-linkedin-in"></i> -->
@@ -88,7 +90,67 @@
     </section>
 
     <hr class="m-0">
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="projects">
+      <div class="w-100">
+        <h2 class="mb-5">Projects</h2>
+        <br>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Domain-specific languages for optimization</h3>
+            <ul>
+<li><p><a href="http://web.stanford.edu/~boyd/papers/convexjl.html">Convex Optimization in Julia</a>. M. Udell, K. Mohan, D. Zeng, J. Hong, S. Diamond, and S. Boyd. Proceedings of the Workshop for High Performance
+Technical Computing in Dynamic Languages, 2014. <br></p>
+</li>
+</ul>
+          </div>
+        </div>
 
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Finance</h3>
+<ul>
+<li><p><a href="http://stanford.edu/~boyd/papers/cvx_portfolio.html">Multi-Period Trading via Convex Optimization</a>. S. Boyd, E. Busseti, S. Diamond, R. Kahn, K. Koh, P. Nystrup, and J. Speth. Foundations and Trends in Optimization, 3(1):1–76, 2017. <br></p>
+</li>
+</ul>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Matrix-free optimization</h3>
+<ul>
+<li><p><a href="http://web.stanford.edu/~boyd/papers/abs_ops.html">Convex Optimization with Abstract Linear Operators</a>. S. Diamond and S. Boyd. Proceedings of ICCV, 2015. <br></p>
+</li>
+</ul>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Computational imaging</h3>
+<ul>
+<li><p><a href="https://stevendiamond.me/pdf/proximal.pdf">ProxImaL: Efficient Image Optimization Using Proximal Algorithms</a>. F. Heide, S. Diamond, M. Niessner, J. Ragan-Kelley, W. Heidrich, and G. Wetzstein. Proceedings of ACM SIGGRAPH, 2016. <br></p>
+</li>
+</ul>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Other optimization applications</h3>
+<ul>
+<li><p><a href="https://stanford.edu/~boyd/papers/net_opt.html">Network Optimization for Unified Packet and Circuit Switched Networks</a>. P. Yin, S. Diamond, B. Lin, and S. Boyd. Optimization and Engineering, 21(1):159–180, 2020. <br></p>
+</li>
+</ul>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <hr class="m-0">
+	  
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="publications">
       <div class="w-100">
         <h2 class="mb-5">Publications</h2>
@@ -255,7 +317,8 @@ Transactions on Graphics, 2019.<br></p>
             <h3 class="mb-0">Head instructor</h3>
             <ul>
               <li><p>Convex Optimization I, Stanford University (EE364a), Sum 2019.</p></li>
-              <li><p>Convex Optimization Short Course, ShanghaiTech, Shanghai, Spr 2016.</p></li>
+              <li><p>Convex Optimization Short Course, ShanghaiTech, Shanghai, Spr 2016.</p>
+              </li>
             </ul>
           </div>
         </div>
